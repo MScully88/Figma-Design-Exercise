@@ -1,0 +1,73 @@
+
+html {
+  overflow: hidden;
+}
+
+.landing-page{
+  min-height: 100vh;
+  color: white;
+  background-image: linear-gradient(90deg, #5E239D 0%, rgba(196, 196, 196, 0) 56.77%), url('./images/officeimage.svg');
+  background-blend-mode: multiply; 
+  background-repeat: no-repeat no-repeat;
+  background-size: cover;
+  background-color:  rgba(95, 44, 157, 1);
+}
+
+.scroll {
+  transform: rotate(90deg);
+  color: white;
+  padding-right: 5vw;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pink-headline {
+  color: #F61067;
+  font-size: 9rem;
+}
+
+
+.nav {
+  display: flex;
+  padding-left: 10vw;
+  padding-top: 4vh;
+  padding-right: 6vw;
+  justify-content: space-between;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.headline {
+  padding-left: 10vw;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+.what {
+  font-size: 1.5rem;
+  line-height: 50%;
+}
+.we {
+  font-size: 4rem;
+  line-height: 50%;
+}
+
+.sub-div {
+  border: 2px solid whitesmoke;
+  border-left: none;
+  width: 50%;
+}
+
+.sub-div p {
+  padding: 2em;
+}
+
+.info-page {
+  min-height: 100vh;
+  background-color: white;
+}
